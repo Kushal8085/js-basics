@@ -57,5 +57,45 @@ const users = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
-console.log(tinderUser.hasOwnProperty("isLogged"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLogged"));
+
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "hitesh",
+};
+
+// course.courseInstructor
+
+const { courseInstructor: instructor } = course;
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+/* USED IN REACT */
+// const navbar=(props.company)=>{
+
+// }
+
+// const navbar=({company})=>{
+
+// }
+
+// navbar(company="kushal")
+
+// JSON => Javascript Object Notation
+// not only limited to Javascript, used in API industry like in Ruby, PHP etc.
+// objects ko usually json format m hi bhjte hain
+
+// {
+//   "name":"kushal",
+//   "coursename":"js in hindi",
+//   "price":"free"
+// }
+
+// [
+//   {},
+//   {},
+//   {}
+// ]
